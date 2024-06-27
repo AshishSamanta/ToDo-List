@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* border: black 2px solid; */
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +36,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+form{
+  width:auto;
+  margin:center;
+  display: flex;
+  justify-content: center;
+  gap:20px
+}
+form input {
+  flex-basis: 80%;
+  border:2px solid black;
+  height :40px;
+  border-radius: auto;
+}
+form button{
+  flex-basis:15%;
+  color:rgb(176, 213, 245);
+  background:rgb(87, 87, 234);
+}
+.outerdiv{
+  width:90%;
+  margin:auto;
+
+}
+.outerdiv ul{
+  margin:0;
+  padding:0;
+  List-style:none;
+
+}
+.outerdiv ul li{
+  color:white;
+  margin-top: 30px;
+  padding:10px;
+  font-size:25px;
+  margin-bottom:20px;
+  position: relative;
+  text-align:left;
+  background-color: black;
+}
+.outerdiv ul li span{
+  position: absolute;
+  right:20px;
+  cursor: pointer;
 }
